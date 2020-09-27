@@ -3,6 +3,7 @@
 Tested on macOS Catalina, but should work with older versions of macOS.
 
 :exclamation: Don't forget to generate a new SMBIOS with GenSMBios! (I'm using MacBookPro11,1)
+
 :exclamation: This EFI is a work in progress. Even though it boots, not everything has been tested.
 
 ##### What's working:
