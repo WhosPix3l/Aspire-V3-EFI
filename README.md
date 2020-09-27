@@ -10,9 +10,10 @@ Tested on macOS Catalina, but should work with older versions of macOS.
 * Adjustable display backlight
 * All USB ports
 * Battery management
+* Built-in keyboard
 * Gigabit Ethernet
 * Graphics acceleration with iGPU (Intel HD Graphics 4400)
-* Built-in keyboard
+* Intel Bluetooth
 * WebCam
 
 ##### What's somewhat working:
