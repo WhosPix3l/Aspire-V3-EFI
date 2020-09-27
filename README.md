@@ -32,6 +32,11 @@ Tested on macOS Catalina, but should work with older versions of macOS.
 * Boot → Boot Mode → UEFI
 * Boot → Secure Boot → Disable
 
-## Changelog
+# Changelog (DD/MM/YYYY)
 
-## &#x1F34F;   Initial commit.
+## 27/09/2020
+* Add SystemProfilerMemoryFixup.kext in order to show the memory tab in the 'About This Mac' window.
+
+
+## 27/09/2020
+* Initial commit.
