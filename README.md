@@ -34,9 +34,7 @@ Tested on macOS Catalina, but should work with older versions of macOS.
 
 # Changelog (DD/MM/YYYY)
 
+
 ## 27/09/2020
 * Add SystemProfilerMemoryFixup.kext in order to show the memory tab in the 'About This Mac' window.
-
-
-## 27/09/2020
 * Initial commit.
