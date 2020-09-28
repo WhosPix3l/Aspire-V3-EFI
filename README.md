@@ -27,6 +27,7 @@ Tested on macOS Catalina, but should work with older versions of macOS.
 * Built-in WiFi
 * HDMI port (Haven't got around to do BusID patching)
 * Rest of the iServices (FaceTime, iMessage, etc.)
+* Sleep + wake
 
 ##### BIOS Settings
 * Boot → Boot Mode → UEFI
