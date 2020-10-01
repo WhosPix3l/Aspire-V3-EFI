@@ -6,6 +6,9 @@ Tested on macOS Catalina, but should work with older versions of macOS.
 
 :exclamation: This EFI is a work in progress. Even though it boots, not everything has been tested.
 
+## Features
+
+
 ##### What's working:
 * Adjustable display backlight
 * All USB ports
@@ -29,7 +32,9 @@ Tested on macOS Catalina, but should work with older versions of macOS.
 * Rest of the iServices (FaceTime, iMessage, etc.)
 * Sleep + wake
 
-##### BIOS Settings
+## BIOS Settings
+
+
 * Boot → Boot Mode → UEFI
 * Boot → Secure Boot → Disable
 
