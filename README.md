@@ -9,7 +9,7 @@ Tested on macOS Catalina, but should work with older versions of macOS.
 ## System Specifications
 
 
-##### Laptop:
+#### Laptop:
 * Acer Aspire V3-371
 ##### Motherboard:
 * Acer Aspire V3-371
