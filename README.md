@@ -33,9 +33,12 @@ Tested on macOS Catalina, but should work with older versions of macOS.
 * Boot → Boot Mode → UEFI
 * Boot → Secure Boot → Disable
 
-# Changelog (DD/MM/YYYY)
+## Changelog (DD/MM/YYYY)
 
 
-## 27/09/2020
+### 01/10/2020
+* Moved SystemProfilerMemoryFixup.kext to the Extensions folder as macOS kernel panics when trying to boot into Recovery.
+
+### 27/09/2020
 * Add SystemProfilerMemoryFixup.kext in order to show the memory tab in the 'About This Mac' window.
 * Initial commit.
