@@ -9,21 +9,19 @@ Tested on macOS Catalina, but should work with older versions of macOS.
 ## System Specifications
 
 
-#### Laptop:
+### Motherboard:
 * Acer Aspire V3-371
-##### Motherboard:
-* Acer Aspire V3-371
-##### CPU:
+### CPU:
 * Intel Core i3-4005U
-##### Memory:
+### Memory:
 * Crucial 8GB DDR3L 1600 MHz SODIMM
 * Generic 4GB DDR3L 1600 MHz SODIMM (Comes with the laptop configuration)
-##### Graphics:
+### Graphics:
 * Intel HD Graphics 4400
-##### Networking:
+### Networking:
 * Intel Dual-Band Wireless AC-7265
 * Realtek Ethernet RTL8111
-##### Connectivity:
+### Connectivity:
 * 1 ✕ Barrel power connector
 * 1 ✕ Ethernet port
 * 1 ✕ HDMI port
@@ -31,6 +29,9 @@ Tested on macOS Catalina, but should work with older versions of macOS.
 * 1 ✕ USB 2.0
 * 1 ✕ SD card reader
 * 1 ✕ Combo jack (Input + Output)
+### Input:
+* PS/2 Keyboard
+* Synaptics I2C Trackpad (Uses Microsoft drivers)
 
 
 ## Features
