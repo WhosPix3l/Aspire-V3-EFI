@@ -6,6 +6,33 @@ Tested on macOS Catalina, but should work with older versions of macOS.
 
 :exclamation: This EFI is a work in progress. Even though it boots, not everything has been tested.
 
+## System Specifications
+
+
+##### Laptop:
+* Acer Aspire V3-371
+##### Motherboard:
+* Acer Aspire V3-371
+##### CPU:
+* Intel Core i3-4005U
+##### Memory:
+* Crucial 8GB DDR3L 1600 MHz SODIMM
+* Generic 4GB DDR3L 1600 MHz SODIMM (Comes with the laptop configuration)
+##### Graphics:
+* Intel HD Graphics 4400
+##### Networking:
+* Intel Dual-Band Wireless AC-7265
+* Realtek Ethernet RTL8111
+##### Connectivity:
+* 1 ✕ Barrel power connector
+* 1 ✕ Ethernet port
+* 1 ✕ HDMI port
+* 1 ✕ USB 3.0
+* 1 ✕ USB 2.0
+* 1 ✕ SD card reader
+* 1 ✕ Combo jack (Input + Output)
+
+
 ## Features
 
 
@@ -15,7 +42,7 @@ Tested on macOS Catalina, but should work with older versions of macOS.
 * Battery management
 * Built-in keyboard
 * Gigabit Ethernet
-* Graphics acceleration with iGPU (Intel HD Graphics 4400)
+* Graphics acceleration with iGPU
 * Intel Bluetooth
 * WebCam
 
@@ -37,6 +64,7 @@ Tested on macOS Catalina, but should work with older versions of macOS.
 
 * Boot → Boot Mode → UEFI
 * Boot → Secure Boot → Disable
+
 
 ## Changelog (DD/MM/YYYY)
 
