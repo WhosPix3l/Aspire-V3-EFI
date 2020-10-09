@@ -18,10 +18,11 @@ Tested on macOS Catalina, but should work with older versions of macOS.
 * Generic 4GB DDR3L 1600 MHz SODIMM (Comes with the laptop configuration)
 ### Graphics:
 * Intel HD Graphics 4400
-### Networking:
-* Intel Dual-Band Wireless AC-7265
-* Realtek Ethernet RTL8111
 ### Connectivity:
+* Intel Dual-Band Wireless AC-7265
+* Intel Bluetooth
+* Realtek Ethernet RTL8111
+### Ports:
 * 1 ✕ Barrel power connector
 * 1 ✕ Ethernet port
 * 1 ✕ HDMI port
@@ -32,20 +33,20 @@ Tested on macOS Catalina, but should work with older versions of macOS.
 ### Input:
 * PS/2 Keyboard
 * Synaptics I2C Trackpad (Uses Microsoft drivers)
+* (Chicony?) HD WebCam
 
 
 ## Features
 
 
 ##### What's working:
-* Adjustable display backlight
 * All USB ports
 * Battery management
+* Bluetooth (natively!!)
 * Built-in keyboard
 * Gigabit Ethernet
 * Graphics acceleration with iGPU
-* Intel Bluetooth
-* WebCam
+* WebCam (natively!!)
 
 ##### What's somewhat working:
 * App Store
@@ -54,7 +55,8 @@ Tested on macOS Catalina, but should work with older versions of macOS.
 * Touchpad (Only scroll gestures work, enable 'Click in bottom right corner' to get right-click to work.)
 
 ##### What's not working:
-* Built-in audio (Will try with VoodooHDA later)
+* Adjustable display backlight
+* Built-in audio (Haven't got around to set Layout-ID)
 * Built-in WiFi
 * HDMI port (Haven't got around to do BusID patching)
 * Rest of the iServices (FaceTime, iMessage, etc.)
@@ -69,6 +71,9 @@ Tested on macOS Catalina, but should work with older versions of macOS.
 
 ## Changelog (DD/MM/YYYY)
 
+
+### 09/10/2020
+* Attempted BusID patching, failed. Rolled back changes.
 
 ### 01/10/2020
 * Moved SystemProfilerMemoryFixup.kext to the Extensions folder as macOS kernel panics when trying to boot into Recovery.
