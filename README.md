@@ -14,8 +14,8 @@ Tested on macOS Catalina, but should work with older versions of macOS.
 ### CPU:
 * Intel Core i3-4005U
 ### Memory:
-* Crucial 8GB DDR3L 1600 MHz SODIMM
-* Generic 4GB DDR3L 1600 MHz SODIMM (Comes with the laptop configuration)
+* Corsair ValueSelect 8GB DDR3L 1600 MHz SODIMM
+* Samsung 4GB DDR3L 1600 MHz SODIMM (Comes with the laptop configuration)
 ### Graphics:
 * Intel HD Graphics 4400
 ### Connectivity:
@@ -49,16 +49,16 @@ Tested on macOS Catalina, but should work with older versions of macOS.
 * WebCam (natively!!)
 
 ##### What's somewhat working:
+* Adjustable display backlight (sometimes)
 * App Store
+* HDMI port (Finder will crash and you must hard restart)
 * iCloud
 * Logging in with an Apple ID on the Hackintosh
 * Touchpad (Only scroll gestures work, enable 'Click in bottom right corner' to get right-click to work.)
 
 ##### What's not working:
-* Adjustable display backlight
-* Built-in audio (Haven't got around to set Layout-ID)
+* Built-in audio (Still attempting a fix)
 * Built-in WiFi
-* HDMI port (Haven't got around to do BusID patching)
 * Rest of the iServices (FaceTime, iMessage, etc.)
 * Sleep + wake
 
