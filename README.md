@@ -76,7 +76,7 @@ Tested on macOS Mojave, but should work with older and newer versions of macOS.
 
 ### 31/12/2020
 * Add GUI
-* Bump OC version to OpenCore version 1.6.4
+* Bump OC version to OpenCore version 0.6.4
 * Cheers to a new year! 🥂
 
 ### 09/10/2020
