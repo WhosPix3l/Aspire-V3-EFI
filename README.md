@@ -1,10 +1,8 @@
 # Opencore EFI folder, for the Acer Aspire V3-371!
 
-Tested on macOS Mojave, but should work with older and newer versions of macOS.
+Tested on macOS Big Sur, but should work with older and newer versions of macOS.
 
-:exclamation: Don't forget to generate a new SMBIOS with GenSMBios! (I'm using MacBookAir6,2)
-
-:exclamation: This EFI does NOT inject SMBIOS to other operating systems in order to keep drivers working.
+:exclamation: Don't forget to generate a new SMBIOS with GenSMBios! (I'm using MacBookPro11,1)
 
 :exclamation: This EFI is a work in progress. Even though it boots, not everything has been tested.
 
@@ -73,6 +71,9 @@ Tested on macOS Mojave, but should work with older and newer versions of macOS.
 
 ## Changelog (DD/MM/YYYY)
 
+### 31/12/2020
+* Bump OC version OpenCore version 0.7.0
+* Change SMBIOS to MacBookPro11,1
 
 ### 31/12/2020
 * Add GUI
