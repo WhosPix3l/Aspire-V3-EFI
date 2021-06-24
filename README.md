@@ -9,7 +9,7 @@ Tested on macOS Big Sur, but should work with older and newer versions of macOS.
 ## System Specifications
 
 ### CPU
-* Intel Core i3-4005U
+* Intel Core i3-4005U @ 1.70 GHz (Two cores, four threads)
 ### Memory
 * Corsair ValueSelect 8GB DDR3L 1600 MHz SODIMM
 * Samsung 4GB DDR3L 1600 MHz SODIMM (Comes with the laptop configuration)
