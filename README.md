@@ -8,21 +8,18 @@ Tested on macOS Big Sur, but should work with older and newer versions of macOS.
 
 ## System Specifications
 
-
-### Motherboard:
-* Acer Aspire V3-371
-### CPU:
+#### CPU:
 * Intel Core i3-4005U
-### Memory:
+#### Memory:
 * Corsair ValueSelect 8GB DDR3L 1600 MHz SODIMM
 * Samsung 4GB DDR3L 1600 MHz SODIMM (Comes with the laptop configuration)
-### Graphics:
+#### Graphics:
 * Intel HD Graphics 4400
-### Connectivity:
+#### Connectivity:
 * Intel Dual-Band Wireless AC-7265
 * Intel Bluetooth
 * Realtek Ethernet RTL8111
-### Ports:
+#### Ports:
 * 1 ✕ Barrel power connector
 * 1 ✕ Ethernet port
 * 1 ✕ HDMI port
@@ -30,37 +27,34 @@ Tested on macOS Big Sur, but should work with older and newer versions of macOS.
 * 1 ✕ USB 2.0
 * 1 ✕ SD card reader
 * 1 ✕ Combo jack (Input + Output)
-### Input:
+#### Input:
 * PS/2 Keyboard
-* Synaptics I2C Trackpad (Uses Microsoft drivers)
+* Synaptics I2C Trackpad
 * (Chicony?) HD WebCam
 
 
 ## Features
 
 
-##### What's working:
+#### What's working:
 * All USB ports
+* App Store
 * Battery management
-* Bluetooth (natively!!)
+* Brightness Control
+* Built-in audio speakers
 * Built-in keyboard
 * Gigabit Ethernet
 * Graphics acceleration with iGPU
-
-##### What's somewhat working:
-* Adjustable display backlight (sometimes, not consistent)
-* App Store
 * HDMI port (Finder will crash and you must hard reset.)
-* iCloud
-* Logging in with an Apple ID on the Hackintosh
-* Touchpad (Only scroll gestures work, enable 'Click in bottom right corner' to get right-click to work.)
-* WebCam (sometimes, not consistent)
+* iServices (App Store, FaceTime, iMessage, etc.)
+* WiFi + Bluetooth
 
-##### What's not working:
-* Built-in audio (Still attempting a fix)
-* Built-in WiFi
-* Rest of the iServices (FaceTime, iMessage, etc.)
+#### What's somewhat working:
+* Bluetooth
+* Trackpad (Only scroll gestures work, enable 'Click in bottom right corner' to get right-click to work.)
+#### What's not working:
 * Sleep + wake
+* WebCam (Haven't gotten around to USB mapping yet, will do soon however)
 
 ## BIOS Settings
 
@@ -71,9 +65,9 @@ Tested on macOS Big Sur, but should work with older and newer versions of macOS.
 
 ## Changelog (DD/MM/YYYY)
 
-### 31/12/2020
+### 03/06/2021
 * Bump OC version OpenCore version 0.7.0
-* Change SMBIOS to MacBookPro11,1
+* Change SMBIOS to MacBookPro11,4
 
 ### 31/12/2020
 * Add GUI
