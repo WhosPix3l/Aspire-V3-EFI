@@ -19,10 +19,10 @@ Thank you, and have fun with Hackintoshing!
 * Next, download the EFI by clicking on the green **Code** button and clicking on **Download ZIP**.
 * Then, generate a new serial number and a motherboard serial with **[macserial](https://github.com/acidanthera/macserial)** or **[GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)**. Generate the SMBIOS accordingly.
 
-    Machine     |     SMBIOS
---------------- | --------------
- Aspire V3-371  | MacbookPro11,4
-     Yoga 2     | MacbookPro11,4
+Machine|SMBIOS
+---|---
+Aspire V3-371|MacbookPro11,4
+Yoga 2|MacbookPro11,4
 
 * Finally, you're good to go, have fun with Hackintoshing!
 
