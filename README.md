@@ -2,6 +2,7 @@
 ## A database of all my EFIs that I have made!
 
 :exclamation: All EFIs are tested on macOS Big Sur, but should work with relatively modern versions of macOS (High Sierra and up)
+
 :exclamation: When using an EFI, make sure to generate a new serial number and a motherboard serial with **[macserial](https://github.com/acidanthera/macserial)** or **[GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)**
 
 Hello, welcome to my EFI database! I've done quite a few Hackintoshes in the past (most of the EFIs are gone though lmao), and I figured why not place it on GitHub, to maybe help other people. 🙂
