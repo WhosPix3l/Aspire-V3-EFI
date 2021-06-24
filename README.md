@@ -1,91 +1,33 @@
-# Opencore EFI folder, for the Acer Aspire V3-371!
+# Opencore-EFIs
+## A database of all my EFIs that I have made!
 
-Tested on macOS Big Sur, but should work with older and newer versions of macOS.
+:exclamation: All EFIs are tested on macOS Big Sur, but should work with relatively modern versions of macOS (High Sierra and up)
+:exclamation: When using an EFI, make sure to generate a new serial number and a motherboard serial with **[macserial](https://github.com/acidanthera/macserial)** or **[GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)**
 
-:exclamation: Don't forget to generate a new SMBIOS with GenSMBios! (I'm using MacBookPro11,1)
+Hello, welcome to my EFI database! I've done quite a few Hackintoshes in the past (most of the EFIs are gone though lmao), and I figured why not place it on GitHub, to maybe help other people. 🙂
 
-:exclamation: This EFI is a work in progress. Even though it boots, not everything has been tested.
+Different EFIs are seperated by branches, please select accordingly for your machine.
+I have made EFIs for the
+* [Acer Aspire V3-371-31P5](https://www.acer.com/datasheets/2014/4876/V3-371/NX.MPGSN.005.html)
+* [Lenovo Yoga 2](https://www.lenovo.com/us/en/laptops/lenovo/yoga-laptop-series/yoga-laptop-2-13/) (belongs to **[@losowyLP](https://github.com/losowyLP)**)
 
-## System Specifications
+Thank you, and have fun with Hackintoshing!
 
+## How do I use it?
+* First, select a branch for your machine.
+* Next, download the EFI by clicking on the green **Code** button and clicking on **Download ZIP**.
+* Then, generate a new serial number and a motherboard serial with **[macserial](https://github.com/acidanthera/macserial)** or **[GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)**. Generate the SMBIOS accordingly.
 
-### Motherboard:
-* Acer Aspire V3-371
-### CPU:
-* Intel Core i3-4005U
-### Memory:
-* Corsair ValueSelect 8GB DDR3L 1600 MHz SODIMM
-* Samsung 4GB DDR3L 1600 MHz SODIMM (Comes with the laptop configuration)
-### Graphics:
-* Intel HD Graphics 4400
-### Connectivity:
-* Intel Dual-Band Wireless AC-7265
-* Intel Bluetooth
-* Realtek Ethernet RTL8111
-### Ports:
-* 1 ✕ Barrel power connector
-* 1 ✕ Ethernet port
-* 1 ✕ HDMI port
-* 1 ✕ USB 3.0
-* 1 ✕ USB 2.0
-* 1 ✕ SD card reader
-* 1 ✕ Combo jack (Input + Output)
-### Input:
-* PS/2 Keyboard
-* Synaptics I2C Trackpad (Uses Microsoft drivers)
-* (Chicony?) HD WebCam
+    Machine     |     SMBIOS
+--------------- | --------------
+ Aspire V3-371  | MacbookPro11,4
+     Yoga 2     | MacbookPro11,4
 
-
-## Features
-
-
-##### What's working:
-* All USB ports
-* Battery management
-* Bluetooth (natively!!)
-* Built-in keyboard
-* Gigabit Ethernet
-* Graphics acceleration with iGPU
-
-##### What's somewhat working:
-* Adjustable display backlight (sometimes, not consistent)
-* App Store
-* HDMI port (Finder will crash and you must hard reset.)
-* iCloud
-* Logging in with an Apple ID on the Hackintosh
-* Touchpad (Only scroll gestures work, enable 'Click in bottom right corner' to get right-click to work.)
-* WebCam (sometimes, not consistent)
-
-##### What's not working:
-* Built-in audio (Still attempting a fix)
-* Built-in WiFi
-* Rest of the iServices (FaceTime, iMessage, etc.)
-* Sleep + wake
-
-## BIOS Settings
-
-
-* Boot → Boot Mode → UEFI
-* Boot → Secure Boot → Disable
-
+* Finally, you're good to go, have fun with Hackintoshing!
 
 ## Changelog (DD/MM/YYYY)
-
-### 31/12/2020
-* Bump OC version OpenCore version 0.7.0
-* Change SMBIOS to MacBookPro11,1
-
-### 31/12/2020
-* Add GUI
-* Bump OC version to OpenCore version 0.6.4
-* Cheers to a new year! 🥂
-
-### 09/10/2020
-* Attempted BusID patching, failed. Rolled back changes.
-
-### 01/10/2020
-* Removed SystemProfilerMemoryFixup.kext as macOS kernel panics when trying to boot into Recovery.
-
+### 24/06/2021
+* Add Lenovo Yoga 2 EFI.
 ### 27/09/2020
-* Add SystemProfilerMemoryFixup.kext in order to show the memory tab in the 'About This Mac' window.
-* Initial commit.
+* Add Acer Aspire V3-371 EFI.
+* The start of my Hackintoshing journey. 🍏
