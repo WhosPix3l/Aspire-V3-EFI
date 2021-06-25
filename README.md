@@ -10,9 +10,11 @@ Credits to **[@anthonyhfm](https://github.com/anthonyhfm)** for letting me Hacki
 ## System Specifications
 
 ### CPU
-* AMD Ryzen 5 3600
+* AMD Ryzen 5 3600 (6 Cores, 12 Threads)
+### Mainboar
+* Asus Prime b450 Plus
 ### Memory
-* 16 GB
+* 16 GB DDR4 3200mHz
 ### Graphics
 * AMD Radeon RX 5600 XT
 
