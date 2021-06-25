@@ -29,8 +29,9 @@ Dysfunctional|iMac11,1
 * Finally, you're good to go, have fun with Hackintoshing!
 
 ## Changelog (DD/MM/YYYY)
+### 26/09/2020
+* Add Acer Aspire V3-371 EFI.
 ### 24/06/2021
 * Add Lenovo Yoga 2 EFI.
 ### 27/09/2020
 * Add Acer Aspire V3-371 EFI.
-* The start of my Hackintoshing journey. 🍏
