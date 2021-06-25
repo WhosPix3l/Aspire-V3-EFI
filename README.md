@@ -1,4 +1,4 @@
-# Opencore EFI folder, for the [anthonyhfm](https://github.com/anthonyhfm)'s Ryzen build!
+# Opencore EFI folder, for [anthonyhfm](https://github.com/anthonyhfm)'s Ryzen build!
 
 Tested on macOS Big Sur, but should work with older and newer versions of macOS.
 Credits to **[@anthonyhfm](https://github.com/anthonyhfm)** for letting me Hackintosh his system!
