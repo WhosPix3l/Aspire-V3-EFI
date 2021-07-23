@@ -1180,9 +1180,9 @@
 			<key>HaltLevel</key>
 			<integer>2147483648</integer>
 			<key>PasswordHash</key>
-			<data>AtQ+kS64so4lwTZpUCMpomy3TbHYfL3qfVbgPXOyRR2Jo1FTSQqk8+XgOnr/4UqJXYewd1aJIT4Kzb+zCd4Ogw==</data>
+			<data></data>
 			<key>PasswordSalt</key>
-			<data>E1zax9ZbYmtUMyzmNAG5rw==</data>
+			<data></data>
 			<key>ScanPolicy</key>
 			<integer>0</integer>
 			<key>SecureBootModel</key>
