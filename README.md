@@ -47,13 +47,13 @@ Tested on macOS Big Sur, but should work with older and newer versions of macOS.
 * Graphics acceleration with iGPU
 * HDMI port (Finder will crash and you must hard reset.)
 * iServices (App Store, FaceTime, iMessage, etc.)
+* Trackpad w/ gestures (Enable 'Click in bottom right corner' to get right-click to work.)
 * WebCam
 * WiFi + Bluetooth
 
 ### Somewhat working
 * Bluetooth
 * Headphone Jack, it crackles. Use [this fix](https://elitemacx86.com/threads/audio-distortion-when-using-headphones-on-laptops-clover-opencore.185/).
-* Trackpad (Only scroll gestures work, enable 'Click in bottom right corner' to get right-click to work.)
 ### Not working
 * Sleep + wake
 
@@ -65,6 +65,9 @@ Tested on macOS Big Sur, but should work with older and newer versions of macOS.
 
 
 ## Changelog (DD/MM/YYYY)
+
+### 23/07/2021
+* Gestures work all of a sudden now thats nice
 
 ### 16/07/2021
 * Re-did because I want to lmao
